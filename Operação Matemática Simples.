@@ -1,0 +1,73 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM+rKSx0sZvHTp7g48VKv68",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/JAENED13/Projeto_Python/blob/main/Opera%C3%A7%C3%A3o%20Matem%C3%A1tica%20Simples.\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 12,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "MhvgP_AJuNRG",
+        "outputId": "1153f2f1-8ac6-4d1a-cb66-2a3c3ad5d114"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o primeiro número: 5\n",
+            "Digite o segundo número: 8\n",
+            "Digite a operação desejada (+, -, *, /): -\n",
+            "O resultado da subtração é: 3\n"
+          ]
+        }
+      ],
+      "source": [
+        "## Operação Matemática Simples. Vamos solicitar como entrada dois numeros e depois vamos realizar uma operacao simples entre eles.\n",
+        "num1 = int(input(\"Digite o primeiro número: \"))\n",
+        "num2 = int(input(\"Digite o segundo número: \"))\n",
+        "operacao = input(\"Digite a operação desejada (+, -, *, /): \")\n",
+        "if operacao == \"+\":\n",
+        "    resultado_soma = num1 + num2\n",
+        "    print(\"O resultado da soma é:\", resultado_soma)\n",
+        "elif operacao == \"-\":\n",
+        "    resultado_subtracao = num1 - num2\n",
+        "    print(\"O resultado da subtração é:\", abs(resultado_subtracao))\n",
+        "elif operacao == \"*\":\n",
+        "    resultado_multiplicacao = num1 * num2\n",
+        "    print(\"O resultado da multiplicação é:\", resultado_multiplicacao)\n",
+        "elif operacao == \"/\":\n",
+        "    resultado_divisao = num1 / num\n",
+        "    print(\"O resultado da divisão é:\", resultado_divisao)\n",
+        "else:\n",
+        "    print(\"Operação inválida\")"
+      ]
+    }
+  ]
+}
